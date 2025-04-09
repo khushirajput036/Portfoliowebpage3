@@ -1,0 +1,77 @@
+
+ *
+ {
+ font-family:'poppins' sans-serif;
+
+ }
+ .nav-link
+ {
+ color:white;
+ }
+
+ .nav-link:hover
+ {
+ color:#0ef;
+ }
+ .icons  i:hover
+ {
+ color:#0ef;
+ background:#0ef;
+ box-shadow:0 0 40px #0ef;
+ }
+ .button:hover
+ {
+ border:cyan;
+ box-shadow:0 0 40px #0ef,
+ 0 0 25px cyan, 0 0 50px cyan,
+ 0 0 100px cyan, 0 0 200px cyan
+ }
+ .navbar navbar-expand-lg bg-dark p-0
+ {
+ cursor:default;
+ opacity:0;
+ animation :SlideRight 1s ease forwards;
+ 
+ }
+ .navbar-brand a
+ {
+ color:white;
+ font-size:40px;
+ margin-left:85px
+ }
+ @keyframes SlideRight {
+ 0% {
+ transform : translateX {-100px);
+ opacity:0;
+ }
+ 100%{
+ transform:translateX(0px);
+ opacity:1;
+ }
+ }
+ @keyframes slideTop {
+ 0% {
+ transform : translateY {-100px);
+ opacity:0;
+ }
+ 100%{
+ transform:translateY(0px);
+ opacity:1;
+ }
+ }
+ @keyframes slideBottom {
+ 0% {
+ transform : translateY {-100px);
+ opacity:0;
+ }
+ 100%{
+ transform:translateY(0px);
+ opacity:1;
+ }
+ }
+
+.card:hover {
+  transform: scale(1.05);
+  transition: 0.3s ease-in-out;
+  box-shadow: 0 0 20px cyan;
+}
